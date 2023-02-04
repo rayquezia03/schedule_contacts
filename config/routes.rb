@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   #nome do controler + nome da action
   root to: "static_pages#index"
-  get 'sobre',    to: 'static_pages#sobre'
-  get 'contato',  to: 'static_pages#contato'
+  get 'Sobre',    to: 'static_pages#sobre'
+  get 'Contato',  to: 'static_pages#contato'
 end
